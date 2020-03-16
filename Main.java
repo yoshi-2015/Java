@@ -11,5 +11,13 @@ class Main { // ここにクラスを記述
     System.out.println(5 * 2); // 結果：10
     System.out.println(6 / 2); // 結果：3
     System.out.println(8 % 5); // 結果：3
+
+    int a;
+    a = 10;
+    System.out.println(a); // 結果：10
+
+    String b;
+    b = "hello,world!"
+    System.out.println(b); // 結果："hello,world!"
   }
 }

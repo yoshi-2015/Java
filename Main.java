@@ -38,20 +38,28 @@ class Main { // ここにクラスを記述
     System.out.println(number);
     System.out.println(text);
 
-    // 変数numberを9で上書きしてください
     number = 9;
+    System.out.println(number); //結果：9
 
-    // 変数numberを出力してください
-    System.out.println(number);
-
-    // 変数textを「Java」で上書きしてください
     text = "Java";
-
-    // 変数textを出力してください
-    System.out.println(text);
+    System.out.println(text); //結果：Java
 
 
     //
+    int number = 10;
+
+    number += 40;
+    number -= 40;
+    number *= 40;
+    number /= 40;
+    number %= 40;
+
+    number++; //変数に「1」を足す、もしくは「1」を引く場合はさらに省略できる
+    number--;
+
+    //
+
+
   }
 }
 

@@ -58,15 +58,39 @@ class Main { // ここにクラスを記述
     number--;
 
     //
+    double number1 = 10.0;
+    double number2 = 3.3;
+
+    System.out.println(number1 + number2); // 結果：13.3
+    System.out.println(number1 - number2); // 結果：6.7
+
+    //
+    System.out.println(5 / 2.0); // 結果：2.5
+
+    System.out.println(5 / 2); // 結果：2
+    System.out.println(5.0 / 2.0); // 結果：2.5
 
 
+    //
+    int x = 13;
+    int y = 4;
+    System.out.println(x / y); // 結果：3（3.25ではない）
+
+    System.out.println((double)x / y); // 結果：3.25
+
+
+    //ちょっとした自己紹介データを記述してみる
+    
   }
 }
 
 
+```java:Main.java
+class Main {
+  public static void main(String[] args) {
 
-class Main { // ここにクラスを記述
-  public static void main(String[] args) { // ここにメゾットを記述
+    
 
   }
 }
+```

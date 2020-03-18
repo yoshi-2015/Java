@@ -77,10 +77,6 @@ class Main { // ここにクラスを記述
     System.out.println(x / y); // 結果：3（3.25ではない）
 
     System.out.println((double)x / y); // 結果：3.25
-
-
-    //ちょっとした自己紹介データを記述してみる
-    
   }
 }
 
